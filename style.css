@@ -32,9 +32,9 @@ body{
 /* header section start */
 header{
     background-image: linear-gradient(#111111, #777777, #111111);
-    height: 685px;
+    /* height: 685px; */
 }
-.nav-area{
+.nav-area, .habit-area{
     max-width: 80%;
     margin: 0 auto;
     padding: 55px 0 0 0;
@@ -126,4 +126,22 @@ h4{
 .nav-banner{
     gap: 95px;
 }
+/* banner end */
 /* header section end */
+/* change habit section start */
+main{
+    background-color: #111111;
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color:rgba(255, 255, 255, 1);
+}
+.habit-text{
+    /* width:41.9375rem ; */
+    text-align: center;
+    padding: 0 185px 55px;
+}
+.habit-area p{
+    margin: 14px 0 55px;
+}
