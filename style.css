@@ -14,12 +14,34 @@ body{
 .white-text{
     color:rgba(255, 255, 255, 1);
 }
+.p-clr{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn-primary{
+    color: rgba(255, 255, 255, 1);
+    font-size: 600;
+    font-size: 1.125rem;
+    background-color:rgba(230, 83, 60, 1);
+    padding: .5rem 1.25rem;
+    border-radius: 2.875rem;
+    border: none;
+}
+/* shareable style end */
 /* header section start */
 header{
-    background-image: linear-gradient(#111111, #777777);
+    background-image: linear-gradient(#111111, #777777, #111111);
+    height: 685px;
+}
+.nav-area{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 55px 0 0 0;
 }
 .navbar{
     justify-content: space-between;
+    align-items: center;
 }
 .nav-text h2{
     color: #E6533C;
@@ -29,9 +51,79 @@ header{
 }
 ul{
     border:1px solid #777777;
+    border-radius: 2.5rem;
+    align-items: center;
+    gap: 2.8125rem;
+    padding: 4px 20px 4px 4px;
 }
 ul>li{
     list-style: none;
     color: rgba(255, 255, 255, 1);
+}
+/* banner start */
+.banner-head{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 6rem 0 1.56rem;
+    
+}
+.app-btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 600;
+    font-size: 1.125rem;
+    background-color:black;
+    padding: .5rem 1.25rem;
+    border-radius: 2.875rem;
+    border: none;
+}
+.banner-btn{
+    gap: 14px;
+    margin: 28px 55px 0 0;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgba(230, 83, 60, 1) ;
+}
+.th-card{
+    background-color:  rgba(48, 48, 48, 0.54);
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    position: relative;
+    top: -160px;
+    left: -100px;
+}
+h6{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+.fh-card{
+    background-color:  rgba(48, 48, 48, 0.54);
+    width: 200px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    position: relative;
+    top: -520px;
+    left: 250px;
+}
+h4{
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+.nav-banner-text{
+    width: 520px;
+}
+.nav-banner{
+    gap: 95px;
 }
 /* header section end */
