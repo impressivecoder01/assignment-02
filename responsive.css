@@ -27,4 +27,11 @@
         display: flex;
         justify-content: center;
     }
+    .running{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .running img{
+        width: 285px;
+    }
 }
