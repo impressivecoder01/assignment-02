@@ -145,3 +145,34 @@ h1{
 .habit-area p{
     margin: 14px 0 55px;
 }
+.text-head{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.head{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.125rem;
+    
+}
+.text{
+    color:rgba(255, 255, 255, 0.5) ;
+    font-size: 0.875rem;
+}
+.habit-text-img img{
+    border-radius: 50%;
+}
+.first-img{
+    width:230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.habit-text-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
