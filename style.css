@@ -35,7 +35,7 @@ header{
     background-image: linear-gradient(#111111, #777777, #111111);
     /* height: 685px; */
 }
-.nav-area, .habit-area, .running, .BMI-text, .bmi-table{
+.nav-area, .habit-area, .running, .BMI-text, .bmi-table, .team{
     max-width: 80%;
     margin: 0 auto;
     padding: 55px 0 0 0;
@@ -207,4 +207,35 @@ h1{
 }
 .BMI-table-bg{
     background-color: rgba(34, 34, 34, 1);
+}
+td, th{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 10px;
+}
+th{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+
+}
+table{
+    border-collapse: collapse;
+}
+.bmi-heading{
+    margin-bottom: 55px;
+}
+.calculate-bmi p{
+    margin: 10px 0;
+}
+.team-heading p{
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+.team-heading{
+    text-align: center;
 }
